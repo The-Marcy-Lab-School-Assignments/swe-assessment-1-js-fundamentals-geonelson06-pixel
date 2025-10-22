@@ -22,7 +22,9 @@ const petJudger = (petBreed, petName) => {
 // ============================================
 
 const loopFromOneUpToAnother = (firstNum, secondNum) => {
-  // Your code here
+  for (let i = firstNum; i < secondNum; i++) {
+    console.log(i);
+  }
 };
 
 // ============================================
